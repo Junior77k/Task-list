@@ -3,7 +3,7 @@ lista = []
 
 while True:
     print('Selecione uma opcao')
-    opcao = input('[i]nserir [a]pagar [l]istar: ').lower()
+    opcao = input('[i]nserir [a]pagar [l]istar [s]air: ').lower()
 # opcao 'i' para abrir o adicionador
     if opcao == 'i':
         # aqui fica onde adicionar a tarefa.
@@ -38,11 +38,7 @@ while True:
         for i, item in enumerate(lista, start=1): # aqui ele ver quantas coisas tem na lista
             print(i, '-', item)
 
-
-
-
-
-             
-
-
-        
+    elif opcao == 's':
+        print('Fechado')
+        break
+    
